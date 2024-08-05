@@ -1,0 +1,598 @@
+2022-06-15-15:06:53 - dim = 128
+2022-06-15-15:06:57 - Parameters:	Namespace(Q_lr=0.001, Q_weight_decay=1e-05, batch_size=512, checkpoint_path='./checkpoints', cls_gamma=0.3, dataset='OfficeHome', day='6_15', dim=128, epoch_warmup=2000000, epochs=100, id='Office_S_reg_1', log_dir='logs/6_15/6_15_Office_S_reg_1_Real_World_Clipart/logs.txt', lr=0.001, model_dir='logs/6_15/6_15_Office_S_reg_1_Real_World_Clipart/model', momentum=0.9, n_class=65, n_codeword=256, num_quantzer=8, num_workers=4, optimizer='adam', reg_rate=2.0, seed=0, seen_domain='Real_World', threshold=-0.7, trust_gamma=5.0, unseen_domain='Clipart', weight_decay=1e-06)
+2022-06-15-15:06:57 - lr = 0.001
+2022-06-15-15:06:59 - mean_max_prob_f_code = 0.320
+2022-06-15-15:06:59 - prob_f_cls max = 0.034
+2022-06-15-15:06:59 -  max prob = 0.119
+2022-06-15-15:06:59 -  mean prob = 0.034
+2022-06-15-15:06:59 - part_rate= 0.1 part prob = 0.044
+2022-06-15-15:06:59 - part_rate= 0.3 part prob = 0.035
+2022-06-15-15:06:59 - part_rate= 0.5 part prob = 0.031
+2022-06-15-15:06:59 - part_rate= 0.7 part prob = 0.029
+2022-06-15-15:06:59 - len_data = 2705 contain_rate = 0.700 pseudo_label acc = 0.199
+2022-06-15-15:06:59 - epoch = 0
+2022-06-15-15:07:00 - mean_loss = 3.208 mean_loss_cls = 5.447 mean_loss_CB_cls = 2.973 mean_loss_Balance = 0.118
+2022-06-15-15:07:00 - mse = 8.696
+2022-06-15-15:07:00 - test single-domain = 
+2022-06-15-15:07:01 - map@4357 = 0.560
+2022-06-15-15:07:01 - test cross-domain = 
+2022-06-15-15:07:02 - map@4357 = 0.252
+2022-06-15-15:07:02 - test single-domain quantized = 
+2022-06-15-15:07:03 - map@4357 = 0.530
+2022-06-15-15:07:03 - test cross-domain quantized = 
+2022-06-15-15:07:04 - map@4357 = 0.236
+2022-06-15-15:07:05 - save at logs/6_15/6_15_Office_S_reg_1_Real_World_Clipart/model/6_15_Office_S_reg_1_0.pth
+2022-06-15-15:07:05 - lr = 0.00095
+2022-06-15-15:07:05 - epoch = 1
+2022-06-15-15:07:06 - mean_loss = 2.208 mean_loss_cls = 6.192 mean_loss_CB_cls = 2.001 mean_loss_Balance = 0.103
+2022-06-15-15:07:06 - mse = 8.962
+2022-06-15-15:07:06 - lr = 0.00095
+2022-06-15-15:07:06 - epoch = 2
+2022-06-15-15:07:07 - mean_loss = 1.795 mean_loss_cls = 6.644 mean_loss_CB_cls = 1.592 mean_loss_Balance = 0.102
+2022-06-15-15:07:07 - mse = 8.981
+2022-06-15-15:07:07 - lr = 0.00095
+2022-06-15-15:07:07 - epoch = 3
+2022-06-15-15:07:09 - mean_loss = 1.517 mean_loss_cls = 6.923 mean_loss_CB_cls = 1.313 mean_loss_Balance = 0.102
+2022-06-15-15:07:09 - mse = 8.981
+2022-06-15-15:07:09 - lr = 0.00095
+2022-06-15-15:07:09 - epoch = 4
+2022-06-15-15:07:10 - mean_loss = 1.324 mean_loss_cls = 7.128 mean_loss_CB_cls = 1.119 mean_loss_Balance = 0.103
+2022-06-15-15:07:10 - mse = 8.975
+2022-06-15-15:07:10 - lr = 0.00095
+2022-06-15-15:07:10 - epoch = 5
+2022-06-15-15:07:11 - mean_loss = 1.177 mean_loss_cls = 7.402 mean_loss_CB_cls = 0.970 mean_loss_Balance = 0.104
+2022-06-15-15:07:11 - mse = 8.990
+2022-06-15-15:07:11 - lr = 0.00095
+2022-06-15-15:07:11 - epoch = 6
+2022-06-15-15:07:13 - mean_loss = 1.070 mean_loss_cls = 7.645 mean_loss_CB_cls = 0.862 mean_loss_Balance = 0.104
+2022-06-15-15:07:13 - mse = 8.961
+2022-06-15-15:07:13 - lr = 0.00095
+2022-06-15-15:07:13 - epoch = 7
+2022-06-15-15:07:14 - mean_loss = 0.989 mean_loss_cls = 7.851 mean_loss_CB_cls = 0.777 mean_loss_Balance = 0.106
+2022-06-15-15:07:14 - mse = 8.961
+2022-06-15-15:07:14 - lr = 0.00095
+2022-06-15-15:07:14 - epoch = 8
+2022-06-15-15:07:15 - mean_loss = 0.909 mean_loss_cls = 7.990 mean_loss_CB_cls = 0.697 mean_loss_Balance = 0.106
+2022-06-15-15:07:15 - mse = 8.906
+2022-06-15-15:07:15 - lr = 0.00095
+2022-06-15-15:07:15 - epoch = 9
+2022-06-15-15:07:17 - mean_loss = 0.838 mean_loss_cls = 8.206 mean_loss_CB_cls = 0.623 mean_loss_Balance = 0.107
+2022-06-15-15:07:17 - mse = 8.900
+2022-06-15-15:07:17 - lr = 0.00095
+2022-06-15-15:07:18 - mean_max_prob_f_code = 0.555
+2022-06-15-15:07:18 - prob_f_cls max = 0.340
+2022-06-15-15:07:18 -  max prob = 0.948
+2022-06-15-15:07:18 -  mean prob = 0.340
+2022-06-15-15:07:18 - part_rate= 0.1 part prob = 0.706
+2022-06-15-15:07:18 - part_rate= 0.3 part prob = 0.408
+2022-06-15-15:07:18 - part_rate= 0.5 part prob = 0.268
+2022-06-15-15:07:18 - part_rate= 0.7 part prob = 0.184
+2022-06-15-15:07:18 - len_data = 2705 contain_rate = 0.700 pseudo_label acc = 0.434
+2022-06-15-15:07:18 - epoch = 10
+2022-06-15-15:07:19 - mean_loss = 0.780 mean_loss_cls = 8.270 mean_loss_CB_cls = 0.566 mean_loss_Balance = 0.107
+2022-06-15-15:07:19 - mse = 8.885
+2022-06-15-15:07:19 - test single-domain = 
+2022-06-15-15:07:20 - map@4357 = 0.892
+2022-06-15-15:07:20 - test cross-domain = 
+2022-06-15-15:07:21 - map@4357 = 0.372
+2022-06-15-15:07:21 - test single-domain quantized = 
+2022-06-15-15:07:22 - map@4357 = 0.905
+2022-06-15-15:07:22 - test cross-domain quantized = 
+2022-06-15-15:07:23 - map@4357 = 0.394
+2022-06-15-15:07:23 - save at logs/6_15/6_15_Office_S_reg_1_Real_World_Clipart/model/6_15_Office_S_reg_1_10.pth
+2022-06-15-15:07:23 - lr = 0.0009025
+2022-06-15-15:07:23 - epoch = 11
+2022-06-15-15:07:24 - mean_loss = 0.723 mean_loss_cls = 8.312 mean_loss_CB_cls = 0.507 mean_loss_Balance = 0.108
+2022-06-15-15:07:24 - mse = 8.836
+2022-06-15-15:07:24 - lr = 0.0009025
+2022-06-15-15:07:24 - epoch = 12
+2022-06-15-15:07:26 - mean_loss = 0.683 mean_loss_cls = 8.418 mean_loss_CB_cls = 0.464 mean_loss_Balance = 0.110
+2022-06-15-15:07:26 - mse = 8.822
+2022-06-15-15:07:26 - lr = 0.0009025
+2022-06-15-15:07:26 - epoch = 13
+2022-06-15-15:07:27 - mean_loss = 0.640 mean_loss_cls = 8.479 mean_loss_CB_cls = 0.420 mean_loss_Balance = 0.110
+2022-06-15-15:07:27 - mse = 8.808
+2022-06-15-15:07:27 - lr = 0.0009025
+2022-06-15-15:07:27 - epoch = 14
+2022-06-15-15:07:28 - mean_loss = 0.608 mean_loss_cls = 8.649 mean_loss_CB_cls = 0.387 mean_loss_Balance = 0.110
+2022-06-15-15:07:28 - mse = 8.774
+2022-06-15-15:07:28 - lr = 0.0009025
+2022-06-15-15:07:28 - epoch = 15
+2022-06-15-15:07:30 - mean_loss = 0.573 mean_loss_cls = 8.668 mean_loss_CB_cls = 0.351 mean_loss_Balance = 0.111
+2022-06-15-15:07:30 - mse = 8.770
+2022-06-15-15:07:30 - lr = 0.0009025
+2022-06-15-15:07:30 - epoch = 16
+2022-06-15-15:07:31 - mean_loss = 0.542 mean_loss_cls = 8.654 mean_loss_CB_cls = 0.321 mean_loss_Balance = 0.111
+2022-06-15-15:07:31 - mse = 8.724
+2022-06-15-15:07:31 - lr = 0.0009025
+2022-06-15-15:07:31 - epoch = 17
+2022-06-15-15:07:32 - mean_loss = 0.518 mean_loss_cls = 8.672 mean_loss_CB_cls = 0.296 mean_loss_Balance = 0.111
+2022-06-15-15:07:32 - mse = 8.693
+2022-06-15-15:07:32 - lr = 0.0009025
+2022-06-15-15:07:32 - epoch = 18
+2022-06-15-15:07:34 - mean_loss = 0.495 mean_loss_cls = 8.657 mean_loss_CB_cls = 0.270 mean_loss_Balance = 0.112
+2022-06-15-15:07:34 - mse = 8.681
+2022-06-15-15:07:34 - lr = 0.0009025
+2022-06-15-15:07:34 - epoch = 19
+2022-06-15-15:07:35 - mean_loss = 0.473 mean_loss_cls = 8.751 mean_loss_CB_cls = 0.249 mean_loss_Balance = 0.112
+2022-06-15-15:07:35 - mse = 8.657
+2022-06-15-15:07:35 - lr = 0.0009025
+2022-06-15-15:07:36 - mean_max_prob_f_code = 0.621
+2022-06-15-15:07:36 - prob_f_cls max = 0.442
+2022-06-15-15:07:36 -  max prob = 0.982
+2022-06-15-15:07:36 -  mean prob = 0.442
+2022-06-15-15:07:36 - part_rate= 0.1 part prob = 0.872
+2022-06-15-15:07:36 - part_rate= 0.3 part prob = 0.578
+2022-06-15-15:07:36 - part_rate= 0.5 part prob = 0.376
+2022-06-15-15:07:36 - part_rate= 0.7 part prob = 0.241
+2022-06-15-15:07:36 - len_data = 2705 contain_rate = 0.700 pseudo_label acc = 0.448
+2022-06-15-15:07:36 - epoch = 20
+2022-06-15-15:07:37 - mean_loss = 0.450 mean_loss_cls = 8.611 mean_loss_CB_cls = 0.226 mean_loss_Balance = 0.112
+2022-06-15-15:07:37 - mse = 8.641
+2022-06-15-15:07:37 - test single-domain = 
+2022-06-15-15:07:38 - map@4357 = 0.960
+2022-06-15-15:07:38 - test cross-domain = 
+2022-06-15-15:07:39 - map@4357 = 0.406
+2022-06-15-15:07:39 - test single-domain quantized = 
+2022-06-15-15:07:40 - map@4357 = 0.963
+2022-06-15-15:07:40 - test cross-domain quantized = 
+2022-06-15-15:07:41 - map@4357 = 0.421
+2022-06-15-15:07:42 - save at logs/6_15/6_15_Office_S_reg_1_Real_World_Clipart/model/6_15_Office_S_reg_1_20.pth
+2022-06-15-15:07:42 - lr = 0.000857375
+2022-06-15-15:07:42 - epoch = 21
+2022-06-15-15:07:43 - mean_loss = 0.436 mean_loss_cls = 8.570 mean_loss_CB_cls = 0.209 mean_loss_Balance = 0.113
+2022-06-15-15:07:43 - mse = 8.614
+2022-06-15-15:07:43 - lr = 0.000857375
+2022-06-15-15:07:43 - epoch = 22
+2022-06-15-15:07:44 - mean_loss = 0.418 mean_loss_cls = 8.789 mean_loss_CB_cls = 0.192 mean_loss_Balance = 0.113
+2022-06-15-15:07:44 - mse = 8.590
+2022-06-15-15:07:44 - lr = 0.000857375
+2022-06-15-15:07:44 - epoch = 23
+2022-06-15-15:07:45 - mean_loss = 0.404 mean_loss_cls = 8.611 mean_loss_CB_cls = 0.177 mean_loss_Balance = 0.113
+2022-06-15-15:07:45 - mse = 8.557
+2022-06-15-15:07:45 - lr = 0.000857375
+2022-06-15-15:07:45 - epoch = 24
+2022-06-15-15:07:47 - mean_loss = 0.390 mean_loss_cls = 8.632 mean_loss_CB_cls = 0.165 mean_loss_Balance = 0.113
+2022-06-15-15:07:47 - mse = 8.533
+2022-06-15-15:07:47 - lr = 0.000857375
+2022-06-15-15:07:47 - epoch = 25
+2022-06-15-15:07:48 - mean_loss = 0.379 mean_loss_cls = 8.635 mean_loss_CB_cls = 0.152 mean_loss_Balance = 0.114
+2022-06-15-15:07:48 - mse = 8.521
+2022-06-15-15:07:48 - lr = 0.000857375
+2022-06-15-15:07:48 - epoch = 26
+2022-06-15-15:07:49 - mean_loss = 0.368 mean_loss_cls = 8.614 mean_loss_CB_cls = 0.141 mean_loss_Balance = 0.114
+2022-06-15-15:07:49 - mse = 8.496
+2022-06-15-15:07:49 - lr = 0.000857375
+2022-06-15-15:07:49 - epoch = 27
+2022-06-15-15:07:51 - mean_loss = 0.357 mean_loss_cls = 8.609 mean_loss_CB_cls = 0.132 mean_loss_Balance = 0.113
+2022-06-15-15:07:51 - mse = 8.475
+2022-06-15-15:07:51 - lr = 0.000857375
+2022-06-15-15:07:51 - epoch = 28
+2022-06-15-15:07:52 - mean_loss = 0.352 mean_loss_cls = 8.557 mean_loss_CB_cls = 0.125 mean_loss_Balance = 0.114
+2022-06-15-15:07:52 - mse = 8.454
+2022-06-15-15:07:52 - lr = 0.000857375
+2022-06-15-15:07:52 - epoch = 29
+2022-06-15-15:07:53 - mean_loss = 0.345 mean_loss_cls = 8.468 mean_loss_CB_cls = 0.116 mean_loss_Balance = 0.114
+2022-06-15-15:07:53 - mse = 8.436
+2022-06-15-15:07:53 - lr = 0.000857375
+2022-06-15-15:07:55 - mean_max_prob_f_code = 0.657
+2022-06-15-15:07:55 - prob_f_cls max = 0.493
+2022-06-15-15:07:55 -  max prob = 0.993
+2022-06-15-15:07:55 -  mean prob = 0.493
+2022-06-15-15:07:55 - part_rate= 0.1 part prob = 0.943
+2022-06-15-15:07:55 - part_rate= 0.3 part prob = 0.681
+2022-06-15-15:07:55 - part_rate= 0.5 part prob = 0.430
+2022-06-15-15:07:55 - part_rate= 0.7 part prob = 0.272
+2022-06-15-15:07:55 - len_data = 2705 contain_rate = 0.700 pseudo_label acc = 0.447
+2022-06-15-15:07:55 - epoch = 30
+2022-06-15-15:07:56 - mean_loss = 0.336 mean_loss_cls = 8.386 mean_loss_CB_cls = 0.109 mean_loss_Balance = 0.113
+2022-06-15-15:07:56 - mse = 8.418
+2022-06-15-15:07:56 - test single-domain = 
+2022-06-15-15:07:57 - map@4357 = 0.982
+2022-06-15-15:07:57 - test cross-domain = 
+2022-06-15-15:07:58 - map@4357 = 0.413
+2022-06-15-15:07:58 - test single-domain quantized = 
+2022-06-15-15:07:59 - map@4357 = 0.982
+2022-06-15-15:07:59 - test cross-domain quantized = 
+2022-06-15-15:08:00 - map@4357 = 0.427
+2022-06-15-15:08:00 - save at logs/6_15/6_15_Office_S_reg_1_Real_World_Clipart/model/6_15_Office_S_reg_1_30.pth
+2022-06-15-15:08:00 - lr = 0.0008145062499999999
+2022-06-15-15:08:00 - epoch = 31
+2022-06-15-15:08:01 - mean_loss = 0.331 mean_loss_cls = 8.443 mean_loss_CB_cls = 0.102 mean_loss_Balance = 0.114
+2022-06-15-15:08:01 - mse = 8.395
+2022-06-15-15:08:01 - lr = 0.0008145062499999999
+2022-06-15-15:08:01 - epoch = 32
+2022-06-15-15:08:02 - mean_loss = 0.326 mean_loss_cls = 8.516 mean_loss_CB_cls = 0.096 mean_loss_Balance = 0.115
+2022-06-15-15:08:02 - mse = 8.378
+2022-06-15-15:08:02 - lr = 0.0008145062499999999
+2022-06-15-15:08:02 - epoch = 33
+2022-06-15-15:08:04 - mean_loss = 0.319 mean_loss_cls = 8.379 mean_loss_CB_cls = 0.091 mean_loss_Balance = 0.114
+2022-06-15-15:08:04 - mse = 8.360
+2022-06-15-15:08:04 - lr = 0.0008145062499999999
+2022-06-15-15:08:04 - epoch = 34
+2022-06-15-15:08:05 - mean_loss = 0.315 mean_loss_cls = 8.383 mean_loss_CB_cls = 0.086 mean_loss_Balance = 0.114
+2022-06-15-15:08:05 - mse = 8.346
+2022-06-15-15:08:05 - lr = 0.0008145062499999999
+2022-06-15-15:08:05 - epoch = 35
+2022-06-15-15:08:06 - mean_loss = 0.311 mean_loss_cls = 8.348 mean_loss_CB_cls = 0.082 mean_loss_Balance = 0.114
+2022-06-15-15:08:06 - mse = 8.333
+2022-06-15-15:08:06 - lr = 0.0008145062499999999
+2022-06-15-15:08:06 - epoch = 36
+2022-06-15-15:08:08 - mean_loss = 0.306 mean_loss_cls = 8.368 mean_loss_CB_cls = 0.078 mean_loss_Balance = 0.114
+2022-06-15-15:08:08 - mse = 8.319
+2022-06-15-15:08:08 - lr = 0.0008145062499999999
+2022-06-15-15:08:08 - epoch = 37
+2022-06-15-15:08:09 - mean_loss = 0.304 mean_loss_cls = 8.319 mean_loss_CB_cls = 0.076 mean_loss_Balance = 0.114
+2022-06-15-15:08:09 - mse = 8.303
+2022-06-15-15:08:09 - lr = 0.0008145062499999999
+2022-06-15-15:08:09 - epoch = 38
+2022-06-15-15:08:10 - mean_loss = 0.302 mean_loss_cls = 8.413 mean_loss_CB_cls = 0.072 mean_loss_Balance = 0.115
+2022-06-15-15:08:10 - mse = 8.295
+2022-06-15-15:08:10 - lr = 0.0008145062499999999
+2022-06-15-15:08:10 - epoch = 39
+2022-06-15-15:08:12 - mean_loss = 0.295 mean_loss_cls = 8.347 mean_loss_CB_cls = 0.067 mean_loss_Balance = 0.114
+2022-06-15-15:08:12 - mse = 8.281
+2022-06-15-15:08:12 - lr = 0.0008145062499999999
+2022-06-15-15:08:13 - mean_max_prob_f_code = 0.677
+2022-06-15-15:08:13 - prob_f_cls max = 0.530
+2022-06-15-15:08:13 -  max prob = 0.994
+2022-06-15-15:08:13 -  mean prob = 0.530
+2022-06-15-15:08:13 - part_rate= 0.1 part prob = 0.965
+2022-06-15-15:08:13 - part_rate= 0.3 part prob = 0.756
+2022-06-15-15:08:13 - part_rate= 0.5 part prob = 0.481
+2022-06-15-15:08:13 - part_rate= 0.7 part prob = 0.297
+2022-06-15-15:08:13 - len_data = 2705 contain_rate = 0.700 pseudo_label acc = 0.446
+2022-06-15-15:08:13 - epoch = 40
+2022-06-15-15:08:14 - mean_loss = 0.294 mean_loss_cls = 8.375 mean_loss_CB_cls = 0.065 mean_loss_Balance = 0.115
+2022-06-15-15:08:14 - mse = 8.267
+2022-06-15-15:08:14 - test single-domain = 
+2022-06-15-15:08:15 - map@4357 = 0.990
+2022-06-15-15:08:15 - test cross-domain = 
+2022-06-15-15:08:16 - map@4357 = 0.413
+2022-06-15-15:08:16 - test single-domain quantized = 
+2022-06-15-15:08:17 - map@4357 = 0.989
+2022-06-15-15:08:17 - test cross-domain quantized = 
+2022-06-15-15:08:18 - map@4357 = 0.420
+2022-06-15-15:08:18 - lr = 0.0007737809374999998
+2022-06-15-15:08:18 - epoch = 41
+2022-06-15-15:08:20 - mean_loss = 0.292 mean_loss_cls = 8.316 mean_loss_CB_cls = 0.063 mean_loss_Balance = 0.114
+2022-06-15-15:08:20 - mse = 8.235
+2022-06-15-15:08:20 - lr = 0.0007737809374999998
+2022-06-15-15:08:20 - epoch = 42
+2022-06-15-15:08:21 - mean_loss = 0.290 mean_loss_cls = 8.401 mean_loss_CB_cls = 0.060 mean_loss_Balance = 0.115
+2022-06-15-15:08:21 - mse = 8.241
+2022-06-15-15:08:21 - lr = 0.0007737809374999998
+2022-06-15-15:08:21 - epoch = 43
+2022-06-15-15:08:22 - mean_loss = 0.286 mean_loss_cls = 8.308 mean_loss_CB_cls = 0.057 mean_loss_Balance = 0.114
+2022-06-15-15:08:22 - mse = 8.220
+2022-06-15-15:08:22 - lr = 0.0007737809374999998
+2022-06-15-15:08:22 - epoch = 44
+2022-06-15-15:08:24 - mean_loss = 0.287 mean_loss_cls = 8.409 mean_loss_CB_cls = 0.058 mean_loss_Balance = 0.115
+2022-06-15-15:08:24 - mse = 8.214
+2022-06-15-15:08:24 - lr = 0.0007737809374999998
+2022-06-15-15:08:24 - epoch = 45
+2022-06-15-15:08:25 - mean_loss = 0.284 mean_loss_cls = 8.329 mean_loss_CB_cls = 0.054 mean_loss_Balance = 0.115
+2022-06-15-15:08:25 - mse = 8.206
+2022-06-15-15:08:25 - lr = 0.0007737809374999998
+2022-06-15-15:08:25 - epoch = 46
+2022-06-15-15:08:27 - mean_loss = 0.279 mean_loss_cls = 8.246 mean_loss_CB_cls = 0.051 mean_loss_Balance = 0.114
+2022-06-15-15:08:27 - mse = 8.199
+2022-06-15-15:08:27 - lr = 0.0007737809374999998
+2022-06-15-15:08:27 - epoch = 47
+2022-06-15-15:08:28 - mean_loss = 0.281 mean_loss_cls = 8.169 mean_loss_CB_cls = 0.051 mean_loss_Balance = 0.115
+2022-06-15-15:08:28 - mse = 8.165
+2022-06-15-15:08:28 - lr = 0.0007737809374999998
+2022-06-15-15:08:28 - epoch = 48
+2022-06-15-15:08:29 - mean_loss = 0.277 mean_loss_cls = 8.303 mean_loss_CB_cls = 0.049 mean_loss_Balance = 0.114
+2022-06-15-15:08:29 - mse = 8.160
+2022-06-15-15:08:29 - lr = 0.0007737809374999998
+2022-06-15-15:08:29 - epoch = 49
+2022-06-15-15:08:31 - mean_loss = 0.276 mean_loss_cls = 8.421 mean_loss_CB_cls = 0.046 mean_loss_Balance = 0.115
+2022-06-15-15:08:31 - mse = 8.156
+2022-06-15-15:08:31 - lr = 0.0007737809374999998
+2022-06-15-15:08:32 - mean_max_prob_f_code = 0.681
+2022-06-15-15:08:32 - prob_f_cls max = 0.534
+2022-06-15-15:08:32 -  max prob = 0.996
+2022-06-15-15:08:32 -  mean prob = 0.534
+2022-06-15-15:08:32 - part_rate= 0.1 part prob = 0.974
+2022-06-15-15:08:32 - part_rate= 0.3 part prob = 0.769
+2022-06-15-15:08:32 - part_rate= 0.5 part prob = 0.484
+2022-06-15-15:08:32 - part_rate= 0.7 part prob = 0.289
+2022-06-15-15:08:32 - len_data = 2705 contain_rate = 0.700 pseudo_label acc = 0.457
+2022-06-15-15:08:32 - epoch = 50
+2022-06-15-15:08:33 - mean_loss = 0.276 mean_loss_cls = 8.275 mean_loss_CB_cls = 0.046 mean_loss_Balance = 0.115
+2022-06-15-15:08:33 - mse = 8.156
+2022-06-15-15:08:33 - test single-domain = 
+2022-06-15-15:08:34 - map@4357 = 0.991
+2022-06-15-15:08:34 - test cross-domain = 
+2022-06-15-15:08:35 - map@4357 = 0.409
+2022-06-15-15:08:35 - test single-domain quantized = 
+2022-06-15-15:08:36 - map@4357 = 0.991
+2022-06-15-15:08:36 - test cross-domain quantized = 
+2022-06-15-15:08:37 - map@4357 = 0.411
+2022-06-15-15:08:37 - lr = 0.0007350918906249997
+2022-06-15-15:08:37 - epoch = 51
+2022-06-15-15:08:39 - mean_loss = 0.272 mean_loss_cls = 8.305 mean_loss_CB_cls = 0.043 mean_loss_Balance = 0.114
+2022-06-15-15:08:39 - mse = 8.135
+2022-06-15-15:08:39 - lr = 0.0007350918906249997
+2022-06-15-15:08:39 - epoch = 52
+2022-06-15-15:08:40 - mean_loss = 0.271 mean_loss_cls = 8.295 mean_loss_CB_cls = 0.042 mean_loss_Balance = 0.115
+2022-06-15-15:08:40 - mse = 8.130
+2022-06-15-15:08:40 - lr = 0.0007350918906249997
+2022-06-15-15:08:40 - epoch = 53
+2022-06-15-15:08:41 - mean_loss = 0.270 mean_loss_cls = 8.322 mean_loss_CB_cls = 0.042 mean_loss_Balance = 0.114
+2022-06-15-15:08:41 - mse = 8.113
+2022-06-15-15:08:41 - lr = 0.0007350918906249997
+2022-06-15-15:08:41 - epoch = 54
+2022-06-15-15:08:43 - mean_loss = 0.271 mean_loss_cls = 8.278 mean_loss_CB_cls = 0.042 mean_loss_Balance = 0.115
+2022-06-15-15:08:43 - mse = 8.106
+2022-06-15-15:08:43 - lr = 0.0007350918906249997
+2022-06-15-15:08:43 - epoch = 55
+2022-06-15-15:08:44 - mean_loss = 0.269 mean_loss_cls = 8.262 mean_loss_CB_cls = 0.040 mean_loss_Balance = 0.114
+2022-06-15-15:08:44 - mse = 8.094
+2022-06-15-15:08:44 - lr = 0.0007350918906249997
+2022-06-15-15:08:44 - epoch = 56
+2022-06-15-15:08:46 - mean_loss = 0.269 mean_loss_cls = 8.191 mean_loss_CB_cls = 0.039 mean_loss_Balance = 0.115
+2022-06-15-15:08:46 - mse = 8.088
+2022-06-15-15:08:46 - lr = 0.0007350918906249997
+2022-06-15-15:08:46 - epoch = 57
+2022-06-15-15:08:47 - mean_loss = 0.271 mean_loss_cls = 8.150 mean_loss_CB_cls = 0.041 mean_loss_Balance = 0.115
+2022-06-15-15:08:47 - mse = 8.086
+2022-06-15-15:08:47 - lr = 0.0007350918906249997
+2022-06-15-15:08:47 - epoch = 58
+2022-06-15-15:08:48 - mean_loss = 0.268 mean_loss_cls = 8.213 mean_loss_CB_cls = 0.039 mean_loss_Balance = 0.114
+2022-06-15-15:08:48 - mse = 8.080
+2022-06-15-15:08:48 - lr = 0.0007350918906249997
+2022-06-15-15:08:48 - epoch = 59
+2022-06-15-15:08:50 - mean_loss = 0.268 mean_loss_cls = 8.258 mean_loss_CB_cls = 0.038 mean_loss_Balance = 0.115
+2022-06-15-15:08:50 - mse = 8.071
+2022-06-15-15:08:50 - lr = 0.0007350918906249997
+2022-06-15-15:08:51 - mean_max_prob_f_code = 0.692
+2022-06-15-15:08:51 - prob_f_cls max = 0.553
+2022-06-15-15:08:51 -  max prob = 0.996
+2022-06-15-15:08:51 -  mean prob = 0.553
+2022-06-15-15:08:51 - part_rate= 0.1 part prob = 0.981
+2022-06-15-15:08:51 - part_rate= 0.3 part prob = 0.815
+2022-06-15-15:08:51 - part_rate= 0.5 part prob = 0.514
+2022-06-15-15:08:51 - part_rate= 0.7 part prob = 0.310
+2022-06-15-15:08:51 - len_data = 2705 contain_rate = 0.700 pseudo_label acc = 0.436
+2022-06-15-15:08:51 - epoch = 60
+2022-06-15-15:08:52 - mean_loss = 0.267 mean_loss_cls = 8.249 mean_loss_CB_cls = 0.037 mean_loss_Balance = 0.115
+2022-06-15-15:08:52 - mse = 8.060
+2022-06-15-15:08:52 - test single-domain = 
+2022-06-15-15:08:53 - map@4357 = 0.993
+2022-06-15-15:08:53 - test cross-domain = 
+2022-06-15-15:08:54 - map@4357 = 0.418
+2022-06-15-15:08:54 - test single-domain quantized = 
+2022-06-15-15:08:55 - map@4357 = 0.993
+2022-06-15-15:08:55 - test cross-domain quantized = 
+2022-06-15-15:08:56 - map@4357 = 0.425
+2022-06-15-15:08:56 - lr = 0.0006983372960937497
+2022-06-15-15:08:56 - epoch = 61
+2022-06-15-15:08:57 - mean_loss = 0.268 mean_loss_cls = 8.295 mean_loss_CB_cls = 0.037 mean_loss_Balance = 0.116
+2022-06-15-15:08:57 - mse = 8.053
+2022-06-15-15:08:57 - lr = 0.0006983372960937497
+2022-06-15-15:08:57 - epoch = 62
+2022-06-15-15:08:59 - mean_loss = 0.266 mean_loss_cls = 8.220 mean_loss_CB_cls = 0.037 mean_loss_Balance = 0.115
+2022-06-15-15:08:59 - mse = 8.042
+2022-06-15-15:08:59 - lr = 0.0006983372960937497
+2022-06-15-15:08:59 - epoch = 63
+2022-06-15-15:09:00 - mean_loss = 0.265 mean_loss_cls = 8.102 mean_loss_CB_cls = 0.037 mean_loss_Balance = 0.114
+2022-06-15-15:09:00 - mse = 8.036
+2022-06-15-15:09:00 - lr = 0.0006983372960937497
+2022-06-15-15:09:00 - epoch = 64
+2022-06-15-15:09:01 - mean_loss = 0.264 mean_loss_cls = 8.078 mean_loss_CB_cls = 0.035 mean_loss_Balance = 0.114
+2022-06-15-15:09:01 - mse = 8.013
+2022-06-15-15:09:01 - lr = 0.0006983372960937497
+2022-06-15-15:09:01 - epoch = 65
+2022-06-15-15:09:03 - mean_loss = 0.263 mean_loss_cls = 8.093 mean_loss_CB_cls = 0.036 mean_loss_Balance = 0.114
+2022-06-15-15:09:03 - mse = 7.996
+2022-06-15-15:09:03 - lr = 0.0006983372960937497
+2022-06-15-15:09:03 - epoch = 66
+2022-06-15-15:09:04 - mean_loss = 0.264 mean_loss_cls = 8.190 mean_loss_CB_cls = 0.036 mean_loss_Balance = 0.114
+2022-06-15-15:09:04 - mse = 7.990
+2022-06-15-15:09:04 - lr = 0.0006983372960937497
+2022-06-15-15:09:04 - epoch = 67
+2022-06-15-15:09:06 - mean_loss = 0.266 mean_loss_cls = 8.105 mean_loss_CB_cls = 0.036 mean_loss_Balance = 0.115
+2022-06-15-15:09:06 - mse = 7.978
+2022-06-15-15:09:06 - lr = 0.0006983372960937497
+2022-06-15-15:09:06 - epoch = 68
+2022-06-15-15:09:07 - mean_loss = 0.263 mean_loss_cls = 8.183 mean_loss_CB_cls = 0.035 mean_loss_Balance = 0.114
+2022-06-15-15:09:07 - mse = 7.974
+2022-06-15-15:09:07 - lr = 0.0006983372960937497
+2022-06-15-15:09:07 - epoch = 69
+2022-06-15-15:09:08 - mean_loss = 0.263 mean_loss_cls = 8.223 mean_loss_CB_cls = 0.035 mean_loss_Balance = 0.114
+2022-06-15-15:09:08 - mse = 7.966
+2022-06-15-15:09:08 - lr = 0.0006983372960937497
+2022-06-15-15:09:10 - mean_max_prob_f_code = 0.688
+2022-06-15-15:09:10 - prob_f_cls max = 0.558
+2022-06-15-15:09:10 -  max prob = 0.997
+2022-06-15-15:09:10 -  mean prob = 0.558
+2022-06-15-15:09:10 - part_rate= 0.1 part prob = 0.986
+2022-06-15-15:09:10 - part_rate= 0.3 part prob = 0.835
+2022-06-15-15:09:10 - part_rate= 0.5 part prob = 0.521
+2022-06-15-15:09:10 - part_rate= 0.7 part prob = 0.307
+2022-06-15-15:09:10 - len_data = 2705 contain_rate = 0.700 pseudo_label acc = 0.447
+2022-06-15-15:09:10 - epoch = 70
+2022-06-15-15:09:11 - mean_loss = 0.264 mean_loss_cls = 8.164 mean_loss_CB_cls = 0.034 mean_loss_Balance = 0.115
+2022-06-15-15:09:11 - mse = 7.955
+2022-06-15-15:09:11 - test single-domain = 
+2022-06-15-15:09:12 - map@4357 = 0.994
+2022-06-15-15:09:12 - test cross-domain = 
+2022-06-15-15:09:13 - map@4357 = 0.415
+2022-06-15-15:09:13 - test single-domain quantized = 
+2022-06-15-15:09:14 - map@4357 = 0.993
+2022-06-15-15:09:14 - test cross-domain quantized = 
+2022-06-15-15:09:15 - map@4357 = 0.419
+2022-06-15-15:09:15 - lr = 0.0006634204312890621
+2022-06-15-15:09:15 - epoch = 71
+2022-06-15-15:09:16 - mean_loss = 0.264 mean_loss_cls = 8.138 mean_loss_CB_cls = 0.034 mean_loss_Balance = 0.115
+2022-06-15-15:09:16 - mse = 7.946
+2022-06-15-15:09:16 - lr = 0.0006634204312890621
+2022-06-15-15:09:16 - epoch = 72
+2022-06-15-15:09:18 - mean_loss = 0.262 mean_loss_cls = 8.087 mean_loss_CB_cls = 0.033 mean_loss_Balance = 0.115
+2022-06-15-15:09:18 - mse = 7.944
+2022-06-15-15:09:18 - lr = 0.0006634204312890621
+2022-06-15-15:09:18 - epoch = 73
+2022-06-15-15:09:19 - mean_loss = 0.263 mean_loss_cls = 8.240 mean_loss_CB_cls = 0.033 mean_loss_Balance = 0.115
+2022-06-15-15:09:19 - mse = 7.939
+2022-06-15-15:09:19 - lr = 0.0006634204312890621
+2022-06-15-15:09:19 - epoch = 74
+2022-06-15-15:09:20 - mean_loss = 0.260 mean_loss_cls = 8.216 mean_loss_CB_cls = 0.032 mean_loss_Balance = 0.114
+2022-06-15-15:09:20 - mse = 7.915
+2022-06-15-15:09:20 - lr = 0.0006634204312890621
+2022-06-15-15:09:20 - epoch = 75
+2022-06-15-15:09:22 - mean_loss = 0.261 mean_loss_cls = 8.042 mean_loss_CB_cls = 0.032 mean_loss_Balance = 0.114
+2022-06-15-15:09:22 - mse = 7.915
+2022-06-15-15:09:22 - lr = 0.0006634204312890621
+2022-06-15-15:09:22 - epoch = 76
+2022-06-15-15:09:23 - mean_loss = 0.263 mean_loss_cls = 8.051 mean_loss_CB_cls = 0.033 mean_loss_Balance = 0.115
+2022-06-15-15:09:23 - mse = 7.899
+2022-06-15-15:09:23 - lr = 0.0006634204312890621
+2022-06-15-15:09:23 - epoch = 77
+2022-06-15-15:09:25 - mean_loss = 0.262 mean_loss_cls = 8.159 mean_loss_CB_cls = 0.031 mean_loss_Balance = 0.115
+2022-06-15-15:09:25 - mse = 7.884
+2022-06-15-15:09:25 - lr = 0.0006634204312890621
+2022-06-15-15:09:25 - epoch = 78
+2022-06-15-15:09:26 - mean_loss = 0.260 mean_loss_cls = 7.963 mean_loss_CB_cls = 0.031 mean_loss_Balance = 0.115
+2022-06-15-15:09:26 - mse = 7.869
+2022-06-15-15:09:26 - lr = 0.0006634204312890621
+2022-06-15-15:09:26 - epoch = 79
+2022-06-15-15:09:27 - mean_loss = 0.260 mean_loss_cls = 8.060 mean_loss_CB_cls = 0.031 mean_loss_Balance = 0.114
+2022-06-15-15:09:27 - mse = 7.859
+2022-06-15-15:09:27 - lr = 0.0006634204312890621
+2022-06-15-15:09:29 - mean_max_prob_f_code = 0.696
+2022-06-15-15:09:29 - prob_f_cls max = 0.574
+2022-06-15-15:09:29 -  max prob = 0.998
+2022-06-15-15:09:29 -  mean prob = 0.574
+2022-06-15-15:09:29 - part_rate= 0.1 part prob = 0.987
+2022-06-15-15:09:29 - part_rate= 0.3 part prob = 0.853
+2022-06-15-15:09:29 - part_rate= 0.5 part prob = 0.559
+2022-06-15-15:09:29 - part_rate= 0.7 part prob = 0.327
+2022-06-15-15:09:29 - len_data = 2705 contain_rate = 0.700 pseudo_label acc = 0.440
+2022-06-15-15:09:29 - epoch = 80
+2022-06-15-15:09:30 - mean_loss = 0.262 mean_loss_cls = 8.069 mean_loss_CB_cls = 0.030 mean_loss_Balance = 0.116
+2022-06-15-15:09:30 - mse = 7.841
+2022-06-15-15:09:30 - test single-domain = 
+2022-06-15-15:09:31 - map@4357 = 0.994
+2022-06-15-15:09:31 - test cross-domain = 
+2022-06-15-15:09:32 - map@4357 = 0.412
+2022-06-15-15:09:32 - test single-domain quantized = 
+2022-06-15-15:09:33 - map@4357 = 0.994
+2022-06-15-15:09:33 - test cross-domain quantized = 
+2022-06-15-15:09:34 - map@4357 = 0.416
+2022-06-15-15:09:34 - lr = 0.000630249409724609
+2022-06-15-15:09:34 - epoch = 81
+2022-06-15-15:09:35 - mean_loss = 0.259 mean_loss_cls = 7.990 mean_loss_CB_cls = 0.030 mean_loss_Balance = 0.115
+2022-06-15-15:09:35 - mse = 7.821
+2022-06-15-15:09:35 - lr = 0.000630249409724609
+2022-06-15-15:09:35 - epoch = 82
+2022-06-15-15:09:37 - mean_loss = 0.259 mean_loss_cls = 8.098 mean_loss_CB_cls = 0.031 mean_loss_Balance = 0.114
+2022-06-15-15:09:37 - mse = 7.834
+2022-06-15-15:09:37 - lr = 0.000630249409724609
+2022-06-15-15:09:37 - epoch = 83
+2022-06-15-15:09:38 - mean_loss = 0.256 mean_loss_cls = 8.022 mean_loss_CB_cls = 0.029 mean_loss_Balance = 0.113
+2022-06-15-15:09:38 - mse = 7.805
+2022-06-15-15:09:38 - lr = 0.000630249409724609
+2022-06-15-15:09:38 - epoch = 84
+2022-06-15-15:09:40 - mean_loss = 0.259 mean_loss_cls = 8.060 mean_loss_CB_cls = 0.029 mean_loss_Balance = 0.115
+2022-06-15-15:09:40 - mse = 7.789
+2022-06-15-15:09:40 - lr = 0.000630249409724609
+2022-06-15-15:09:40 - epoch = 85
+2022-06-15-15:09:41 - mean_loss = 0.260 mean_loss_cls = 7.948 mean_loss_CB_cls = 0.029 mean_loss_Balance = 0.116
+2022-06-15-15:09:41 - mse = 7.769
+2022-06-15-15:09:41 - lr = 0.000630249409724609
+2022-06-15-15:09:41 - epoch = 86
+2022-06-15-15:09:42 - mean_loss = 0.257 mean_loss_cls = 7.894 mean_loss_CB_cls = 0.028 mean_loss_Balance = 0.115
+2022-06-15-15:09:42 - mse = 7.765
+2022-06-15-15:09:42 - lr = 0.000630249409724609
+2022-06-15-15:09:42 - epoch = 87
+2022-06-15-15:09:44 - mean_loss = 0.258 mean_loss_cls = 7.825 mean_loss_CB_cls = 0.028 mean_loss_Balance = 0.115
+2022-06-15-15:09:44 - mse = 7.762
+2022-06-15-15:09:44 - lr = 0.000630249409724609
+2022-06-15-15:09:44 - epoch = 88
+2022-06-15-15:09:45 - mean_loss = 0.258 mean_loss_cls = 7.862 mean_loss_CB_cls = 0.028 mean_loss_Balance = 0.115
+2022-06-15-15:09:45 - mse = 7.756
+2022-06-15-15:09:45 - lr = 0.000630249409724609
+2022-06-15-15:09:45 - epoch = 89
+2022-06-15-15:09:46 - mean_loss = 0.257 mean_loss_cls = 7.834 mean_loss_CB_cls = 0.027 mean_loss_Balance = 0.115
+2022-06-15-15:09:46 - mse = 7.744
+2022-06-15-15:09:46 - lr = 0.000630249409724609
+2022-06-15-15:09:47 - mean_max_prob_f_code = 0.693
+2022-06-15-15:09:47 - prob_f_cls max = 0.576
+2022-06-15-15:09:47 -  max prob = 0.998
+2022-06-15-15:09:47 -  mean prob = 0.576
+2022-06-15-15:09:47 - part_rate= 0.1 part prob = 0.987
+2022-06-15-15:09:47 - part_rate= 0.3 part prob = 0.858
+2022-06-15-15:09:47 - part_rate= 0.5 part prob = 0.575
+2022-06-15-15:09:47 - part_rate= 0.7 part prob = 0.331
+2022-06-15-15:09:47 - len_data = 2705 contain_rate = 0.700 pseudo_label acc = 0.438
+2022-06-15-15:09:47 - epoch = 90
+2022-06-15-15:09:49 - mean_loss = 0.258 mean_loss_cls = 7.790 mean_loss_CB_cls = 0.028 mean_loss_Balance = 0.115
+2022-06-15-15:09:49 - mse = 7.721
+2022-06-15-15:09:49 - test single-domain = 
+2022-06-15-15:09:50 - map@4357 = 0.994
+2022-06-15-15:09:50 - test cross-domain = 
+2022-06-15-15:09:50 - map@4357 = 0.411
+2022-06-15-15:09:50 - test single-domain quantized = 
+2022-06-15-15:09:51 - map@4357 = 0.993
+2022-06-15-15:09:51 - test cross-domain quantized = 
+2022-06-15-15:09:53 - map@4357 = 0.409
+2022-06-15-15:09:53 - lr = 0.0005987369392383785
+2022-06-15-15:09:53 - epoch = 91
+2022-06-15-15:09:54 - mean_loss = 0.255 mean_loss_cls = 7.798 mean_loss_CB_cls = 0.027 mean_loss_Balance = 0.114
+2022-06-15-15:09:54 - mse = 7.714
+2022-06-15-15:09:54 - lr = 0.0005987369392383785
+2022-06-15-15:09:54 - epoch = 92
+2022-06-15-15:09:55 - mean_loss = 0.256 mean_loss_cls = 7.827 mean_loss_CB_cls = 0.028 mean_loss_Balance = 0.114
+2022-06-15-15:09:55 - mse = 7.690
+2022-06-15-15:09:55 - lr = 0.0005987369392383785
+2022-06-15-15:09:55 - epoch = 93
+2022-06-15-15:09:57 - mean_loss = 0.258 mean_loss_cls = 7.732 mean_loss_CB_cls = 0.027 mean_loss_Balance = 0.115
+2022-06-15-15:09:57 - mse = 7.670
+2022-06-15-15:09:57 - lr = 0.0005987369392383785
+2022-06-15-15:09:57 - epoch = 94
+2022-06-15-15:09:58 - mean_loss = 0.256 mean_loss_cls = 7.719 mean_loss_CB_cls = 0.027 mean_loss_Balance = 0.115
+2022-06-15-15:09:58 - mse = 7.656
+2022-06-15-15:09:58 - lr = 0.0005987369392383785
+2022-06-15-15:09:58 - epoch = 95
+2022-06-15-15:09:59 - mean_loss = 0.257 mean_loss_cls = 7.642 mean_loss_CB_cls = 0.027 mean_loss_Balance = 0.115
+2022-06-15-15:09:59 - mse = 7.642
+2022-06-15-15:09:59 - lr = 0.0005987369392383785
+2022-06-15-15:09:59 - epoch = 96
+2022-06-15-15:10:00 - mean_loss = 0.255 mean_loss_cls = 7.570 mean_loss_CB_cls = 0.027 mean_loss_Balance = 0.114
+2022-06-15-15:10:00 - mse = 7.626
+2022-06-15-15:10:00 - lr = 0.0005987369392383785
+2022-06-15-15:10:00 - epoch = 97
+2022-06-15-15:10:02 - mean_loss = 0.254 mean_loss_cls = 7.558 mean_loss_CB_cls = 0.026 mean_loss_Balance = 0.114
+2022-06-15-15:10:02 - mse = 7.601
+2022-06-15-15:10:02 - lr = 0.0005987369392383785
+2022-06-15-15:10:02 - epoch = 98
+2022-06-15-15:10:03 - mean_loss = 0.255 mean_loss_cls = 7.573 mean_loss_CB_cls = 0.027 mean_loss_Balance = 0.114
+2022-06-15-15:10:03 - mse = 7.587
+2022-06-15-15:10:03 - lr = 0.0005987369392383785
+2022-06-15-15:10:03 - epoch = 99
+2022-06-15-15:10:04 - mean_loss = 0.256 mean_loss_cls = 7.439 mean_loss_CB_cls = 0.027 mean_loss_Balance = 0.115
+2022-06-15-15:10:04 - mse = 7.577
+2022-06-15-15:10:04 - lr = 0.0005987369392383785
+2022-06-15-15:10:06 - mean_max_prob_f_code = 0.673
+2022-06-15-15:10:06 - prob_f_cls max = 0.560
+2022-06-15-15:10:06 -  max prob = 0.999
+2022-06-15-15:10:06 -  mean prob = 0.560
+2022-06-15-15:10:06 - part_rate= 0.1 part prob = 0.991
+2022-06-15-15:10:06 - part_rate= 0.3 part prob = 0.855
+2022-06-15-15:10:06 - part_rate= 0.5 part prob = 0.540
+2022-06-15-15:10:06 - part_rate= 0.7 part prob = 0.306
+2022-06-15-15:10:06 - len_data = 2705 contain_rate = 0.700 pseudo_label acc = 0.427
+2022-06-15-15:10:06 - epoch = 100
+2022-06-15-15:10:07 - mean_loss = 0.257 mean_loss_cls = 7.565 mean_loss_CB_cls = 0.026 mean_loss_Balance = 0.115
+2022-06-15-15:10:07 - mse = 7.548
+2022-06-15-15:10:07 - test single-domain = 
+2022-06-15-15:10:08 - map@4357 = 0.994
+2022-06-15-15:10:08 - test cross-domain = 
+2022-06-15-15:10:09 - map@4357 = 0.412
+2022-06-15-15:10:09 - test single-domain quantized = 
+2022-06-15-15:10:10 - map@4357 = 0.993
+2022-06-15-15:10:10 - test cross-domain quantized = 
+2022-06-15-15:10:11 - map@4357 = 0.409
+2022-06-15-15:10:11 - best_map = 0.427
